@@ -111,7 +111,7 @@
 	   {
 		   g[i]=wr[i].value;
 	   }
-	   sessionStorage.setItem('w',JSON.stringify(g));
+	   localStorage.setItem('w',JSON.stringify(g));
 	   }
 	   
    }   

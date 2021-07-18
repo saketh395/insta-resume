@@ -1,16 +1,16 @@
 
 function save(){
    var fn=document.getElementById('fname').value;
-   sessionStorage.setItem('fname',fn);
+   localStorage.setItem('fname',fn);
    var ln=document.getElementById('lname').value;
-   sessionStorage.setItem('lname',ln);
+   localStorage.setItem('lname',ln);
    var ct=document.getElementById('city').value;
-   sessionStorage.setItem('c',ct);
+   localStorage.setItem('c',ct);
    var sta=document.getElementById('state').value;
-   sessionStorage.setItem('st',sta);
+   localStorage.setItem('st',sta);
    var ph=document.getElementById('phno').value;
-   sessionStorage.setItem('p',ph);
+   localStorage.setItem('p',ph);
    var em=document.getElementById('email').value;
-   sessionStorage.setItem('e',em);
+   localStorage.setItem('e',em);
    
 }

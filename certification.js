@@ -88,6 +88,7 @@ var certopt=document.getElementById("certificate_options");
 	   {
 		   d[i]=c[i].value;
 	   }
-	   sessionStorage.setItem('ct',JSON.stringify(d));
+	   localStorage.setItem('ct',JSON.stringify(d));
+	   
 	   }
 	}

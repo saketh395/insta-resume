@@ -10,5 +10,5 @@ function save()
 	{
 		c[i]=a[i].value;
 	}
-	sessionStorage.setItem('ed',JSON.stringify(c));
+	localStorage.setItem('ed',JSON.stringify(c));
 }

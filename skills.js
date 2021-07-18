@@ -79,8 +79,8 @@
 		  f[i]=sel[i].value;
 		  
 	 }
-	  sessionStorage.setItem('arr',JSON.stringify(b));
-	  sessionStorage.setItem('sel',JSON.stringify(f));
+	  localStorage.setItem('arr',JSON.stringify(b));
+	  localStorage.setItem('sel',JSON.stringify(f));
 	 
 	}
 	

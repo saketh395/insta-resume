@@ -2,12 +2,12 @@
 
 
 
-var name=sessionStorage.getItem('fname');
-name+=" "+sessionStorage.getItem('lname');
+var name=localStorage.getItem('fname');
+name+=" "+localStorage.getItem('lname');
 document.getElementById('fullname').innerHTML=name;
-document.getElementById('phno').innerHTML=sessionStorage.getItem('p');
-document.getElementById('email').innerHTML=sessionStorage.getItem('e');
-document.getElementById('address').innerHTML=sessionStorage.getItem('c')+","+sessionStorage.getItem('st');
+document.getElementById('phno').innerHTML=localStorage.getItem('p');
+document.getElementById('email').innerHTML=localStorage.getItem('e');
+document.getElementById('address').innerHTML=localStorage.getItem('c')+","+localStorage.getItem('st');
 
 
 
@@ -17,7 +17,7 @@ document.getElementById('address').innerHTML=sessionStorage.getItem('c')+","+ses
 
 
 
-var e1=sessionStorage.getItem('ed');
+var e1=localStorage.getItem('ed');
 var bd1=JSON.parse(e1);
 console.log(bd1);
 var br=document.getElementsByTagName("br");
@@ -55,8 +55,8 @@ p.remove();
 
 
 
-var sr=sessionStorage.getItem('arr');
-var se=sessionStorage.getItem('sel');
+var sr=localStorage.getItem('arr');
+var se=localStorage.getItem('sel');
 var ar=JSON.parse(sr);
 var s=JSON.parse(se);
 console.log(ar);
@@ -125,7 +125,7 @@ function month(m)
 
 
 var divy=document.getElementById('div51');
-var w1=sessionStorage.getItem('w');
+var w1=localStorage.getItem('w');
 var w2=JSON.parse(w1);
 console.log(w2);
 var i;
@@ -159,7 +159,7 @@ else
 
 
 
-var ce1=sessionStorage.getItem('ct');
+var ce1=localStorage.getItem('ct');
 var ce2=JSON.parse(ce1);
 console.log(ce2);
 var i;
@@ -189,7 +189,7 @@ else
 }
 
 
-var p1=sessionStorage.getItem('as');
+var p1=localStorage.getItem('as');
 var p2=JSON.parse(p1);
 console.log(p2);
 var t2=document.getElementById('table2');
