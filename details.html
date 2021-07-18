@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="details.css">
+<title>
+  Personal Details
+</title>
+</head>
+<body>
+<center>
+<div id="d1">
+  <form action="skills.html" target="_self" >
+   <label><h2>FILL PERSONAL DETAILS</h2></label>
+   <table id="t1">
+	<tr>
+	<td><label for"fname"><b>First Name</b></label></td>
+	<td><label for"lname"><b>Last Name</b></label></td>
+	</tr>
+	<tr>
+	<td><input type="text" id="fname" name="fname" class="name" placeholder="Enter First Name" maxlength="20" required></td>
+	<td><input type="text" id="lname" name="lname" class="name" placeholder="Enter Last Name" maxlength="20" required></td>
+	</tr>
+   
+	<tr>
+	<td><label for"city"><b>City</b></label></td>
+	<td><label for"state"><b>State</b></label></td>
+	</tr>
+	<tr>
+	<td><input type="text" id="city" name="city" class="city" placeholder="Enter city" maxlength="15" required></td>
+	<td><input type="text" id="state" name="state" class="state" placeholder="Enter State" maxlength="15" required></td>
+	<td>
+	</tr>
+	
+	<tr>
+	<td><label for="phno"><b>Phone Number</b></label></td>
+	<td><label for="email"><b>Mail Id</b></label></td>
+	</tr>
+	<tr>
+	<td><input type="tel" id="phno" name="phno" class="phno" placeholder="Enter PhNo" pattern="[0-9]{10}" maxlength="10" required></td>
+	<td><input type="email" id="email" name="email" class="email" maxlength="30" placeholder="Enter Mail-Id" required></td>
+	</tr>
+	</table>
+	<br>
+   <input type="submit" value="Save & Next" onclick="save()">
+   </form>
+ </div>
+ <script src='details.js'></script>
+</center> 
+</body>
+</html>

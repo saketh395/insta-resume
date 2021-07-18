@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="final.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+Resume Preview
+</title>
+</head>
+<body>
+<h1 style="text-align:center">Preview</h1>
+<div id="page1">
+<div id="page2" >
+  <h2 id="fullname"></h2>
+  <hr class="new">
+    
+    <div class="row1">
+	  <div id="div11" class="column1">
+	  <strong>PERSONAL DETAILS</strong>
+	  </div>
+	  <div id="div12" class="column2">
+	     <b>Phone Number</b><br>
+	     <span id="phno"></span><br><br>
+	     <b>Mail Id</b><br>
+	     <span id="email"></span><br><br>
+	     <b>Address</b><br>
+	     <span id="address"></span>
+	     </div>
+	</div> 
+
+	
+	<div class="row2">
+	  <div id="div21" class="column3">
+	  <strong>EDUCATION</strong>
+	  </div>
+	  <div id="div22" class="column4">
+	  <b id="SX">Secondary(X)</b><br>
+	  <span id='X'></span><br><br>
+	  <b id="SX">Secondary(XII)</b><br>
+	  <span id='XII'></span><br><br>
+	  <b id="UG"></b><br>
+	  <span id='U'></span><br><br>
+	  <b id="PG"></b><br>
+	  <span id='P'></span><br><br>
+	  </div>
+	</div>
+	
+	
+	<div class="row3">
+	  <div id="div31" class="column5">
+	  <strong>SKILLS</strong>
+	  </div>
+	  <div id="div32" class="column6">
+	     <table id="table1">
+		 <tr>
+		 <th>Skill</th>
+		 <th>Level</th>
+		 </tr>
+	     </table>
+	  </div>
+	</div>
+	
+	
+	
+	
+	<div class="row5">
+	  <div id="div51" class="column9">
+	  <strong>WORK EXPERIENCE</strong>
+	  </div >
+	  <div id="div52" class="column10">
+	  <table id='table3'>
+	  </table>
+	  </div>
+	</div>
+	
+	
+	
+	<div class="row6">
+	  <div id="div61" class="column11">
+      <strong>CERTIFICATIONS</strong>
+	  </div>
+	  <div id="div62" class="column12">
+	  <table id='table4'>
+	  </table>
+	  </div>
+	</div>
+	
+	
+	
+	<div class="row4">
+	  <div id="div41" class="column7">
+	  <strong>PROJECTS</strong>
+	  </div>
+	  <div id="div42" class="column8">
+	     <table id='table2'>
+	  </table>
+	  </div>
+	</div>
+</div>
+<br>
+<center>
+<input type="submit" onclick="generatepdf()" value="DOWNLOAD">
+</center>
+</div>
+
+
+<script src="final.js"></script>
+<script src="html2pdf.bundle.min.js"></script>
+</body>
+
+</html>

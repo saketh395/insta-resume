@@ -1,0 +1,168 @@
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 10px;
+        padding: 20px;
+        background-color: white;
+        font-size:20px;
+		font-family: "Times New Roman", Times, serif;
+		background-image:url('indexbg.jpg');
+	    background-size:cover;
+	    background-attachment:fixed;
+	    background-repeat:no-repeat;
+	    opacity:1;
+    }
+    * {
+        box-sizing: border-box;
+       
+    }
+    #page1 {
+        width: 250mm;
+        min-height: 297mm;
+        padding: 10mm;
+        margin: 10mm auto;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    }
+	
+    .new
+	{
+		border:2px solid red;
+	}
+    
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+        html, body {
+            width: 210mm;
+            max-height: 295mm; 
+        		
+        }
+        .page2 {
+            margin: 5;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+        }
+    }
+	tr
+		{
+			page-break-inside:avoid;
+		}
+		
+input[type=submit]
+{
+	width:200px;
+	height:30px;
+	border-radius:4px;
+	border: 1px solid #ccc;
+}
+input[type=submit]:hover
+{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	 background-color:#4CAF50;
+}
+
+.row1 {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  flex: 33%;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+.column2 {
+  flex: 67%;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+.row2 {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column3 {
+  flex: 33%;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+.column4 {
+  flex: 67%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+.row3 {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column5 {
+  flex: 33%;
+  padding: 10px;
+ /* Should be removed. Only for demonstration */
+}
+.column6 {
+  flex: 67%;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+.row4 {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column7 {
+  flex: 33%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+.column8 {
+  flex: 67%;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+.row5 {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column9 {
+  flex: 33%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+.column10 {
+  flex: 67%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+.row6 {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column11 {
+  flex: 33%;
+  padding: 10px;
+   /* Should be removed. Only for demonstration */
+}
+.column12 {
+  flex: 67%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+#table1
+{
+	text-align:left;
+	width:450px;
+}
