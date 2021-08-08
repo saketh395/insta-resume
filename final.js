@@ -4,7 +4,7 @@
 
 var name=localStorage.getItem('fname');
 name+=" "+localStorage.getItem('lname');
-document.getElementById('fullname').innerHTML=name;
+document.getElementById('fullname').innerHTML=name.toUpperCase();
 document.getElementById('phno').innerHTML=localStorage.getItem('p');
 document.getElementById('email').innerHTML=localStorage.getItem('e');
 document.getElementById('address').innerHTML=localStorage.getItem('c')+","+localStorage.getItem('st');
